@@ -25,7 +25,7 @@ class ProductoController extends Controller
                 'nombre' => 'required|string',
                 'descripcion' => 'required|string',
                 'precio' => 'required|integer',
-                'imagen' => 'required|integer',
+                'imagen' => 'required|string',
             ]);
             
         }
